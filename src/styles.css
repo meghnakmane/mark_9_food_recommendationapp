@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lobster&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  color: rgb(238, 235, 235);
+  padding-top: 2rem;
+  background-color: rgb(78, 84, 200);
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+  background-color: rgb(78, 84, 200);
+  text-align: center;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  border-bottom: 0.2rem solid rgb(25, 236, 176);
+  border-radius: 1rem;
+  background-color: rgb(245, 67, 111);
+}
+
+.btn {
+  margin: 1rem 0.5rem;
+  font-family: "Balsamiq Sans", cursive;
+  color: rgb(49, 43, 43);
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid rgb(25, 236, 176);
+  background-color: rgb(245, 67, 111);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn.active {
+  background-color: #3e8e41;
+}
+
+ul {
+  margin: auto;
+  text-align: center;
+  padding-inline-start: 0;
+  width: 70%;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 0.2rem solid rgb(25, 236, 176);
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+}
+
+.restaurant {
+  font-size: larger;
+}
+.speciality {
+  font-size: small;
+}
+
+.rating {
+  font-size: smaller;
+}
